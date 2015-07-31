@@ -23,6 +23,4 @@ Whenever you capture an image the original address and title of the page the ima
 5. Create new Pull Request
 
 ## Coding Style
-
-- Airbnb's coding style
-  - https://github.com/airbnb/javascript
+https://github.com/feross/standard
