@@ -93,7 +93,7 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo) {
     }, function () {})
   }
 })
-
+/*
 chrome.contextMenus.onClicked.addListener(onClickHandler)
 
 chrome.contextMenus.create({
@@ -109,7 +109,7 @@ chrome.browserAction.onClicked.addListener(function (tab) {
     chrome.tabs.sendMessage(tab.id, {action: 'insertMenu', tab: tab}, function () {})
   })
 })
-
+*/
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
   var messageHandlers = {
     gyazoSendRawImage: function () {
