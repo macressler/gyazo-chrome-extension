@@ -4,6 +4,11 @@
   "short_name": "Gyazo",
   "version": "1.2.8",
   "author": "Nota inc.",
+  "applications": {
+    "gecko": {
+      "id": "gyazo-extension@gyazo.com"
+    }
+  },
   "permissions": [
     "<all_urls>",
     "activeTab",
