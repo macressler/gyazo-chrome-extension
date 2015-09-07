@@ -139,6 +139,7 @@
         let wholeCaptureBtn = createButton('gyazo-icon-window-scroll', chrome.i18n.getMessage('topToBottom'), 'W')
         let closeBtn = document.createElement('div')
         closeBtn.className = 'gyazo-close-button gyazo-menu-element gyazo-icon-cross'
+        closeBtn.setAttribute('title', 'Press: Escape')
 
         window.addEventListener('contextmenu', function (event) {
           hideMenu()
