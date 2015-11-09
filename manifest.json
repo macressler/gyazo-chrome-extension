@@ -36,14 +36,6 @@
     "fonts/icomoon.woff",
     "fonts/icomoon.woff2"
   ],
-  "icons": {
-    "16": "/icons/gyazo-16.png",
-    "32": "/icons/gyazo-32.png",
-    "48": "/icons/gyazo-48.png",
-    "96": "/icons/gyazo-96.png",
-    "128": "/icons/gyazo-128.png",
-    "256": "/icons/gyazo-256.png"
-  },
   "options_ui": {
     "page": "option/options.html",
     "chrome_style": false
